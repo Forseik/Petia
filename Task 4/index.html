@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Регистрация</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" href="../img/15855993264770.jpg" type="image/png">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<form action="/" method="post">
+
+		<h2 class="zaglavtext" id="spec1">Регистрация</h2>
+		
+
+
+		<label for="lname"><a class="tochka">*</a> Фамилия:</label>
+		<input class="main" type="text" id="lname" name="fname" required placeholder="Введите фамилию" accept-charset="utf-8" pattern="[А-Яа-я]*" ><br><br> 
+
+		<label for="fname"><a class="tochka">*</a> Имя:</label>
+		<input class="main" type="text" id="fname" name="fname" placeholder="Введите имя"  accept-charset="utf-8" pattern="[А-Яа-я]*" required><br><br> 
+
+		<label for="Otchestvo">Отчество:</label>
+		<input class="main" type="text" id="Otchestvo" name="fname" placeholder="Введите отчество"   accept-charset="utf-8" pattern="[А-Яа-я]*"><br><br> 
+
+		<p required>
+		<p><a class="tochka">*</a> Выберите пол:
+		<input type="radio" name="gender" id="male" value="male">
+		<label for="male">Мужской</label>
+		<input type="radio" name="gender" id="female" value="female">
+		<label for="female">Женский</label>
+		
+
+		<p>
+			<label for="date"><a class="tochka">*</a> Дата рождения: </label>
+			<input class="main" type="date" id="date" name="date" max="2022-06-21" min="1920-01-01" required required>
+		</p>
+		
+		<label for="age">Возраст: </label>
+ 		<input class="main" type="number" id="age" name="age" min="18" max="100"><br><br>
+
+		<label for="color">Выберите цвет глаз: </label>
+		<input class="main" type="color" list="colorList" name="Color Picker" value="#7bbbc9" >
+				<datalist id="colorList">
+					<option value="#654321" label="Карий">
+					<option value="#60a66f" label="Зеленый">
+					<option value="#7bbbc9" label="Голубой">				
+					<option value="#cccccc" label="Серый">
+				</datalist>
+
+		<p required>
+ 		<label for="атрибуты"><a class="tochka">*</a> Место рождения: </label>
+			<select атрибуты>
+			<option атрибуты>Саратов(Кировский р-н)</option>
+			<option атрибуты>Саратов(Волжский р-н)</option> 
+			<option атрибуты>Саратов(Октябрьский р-н)</option>
+			<option атрибуты>Саратов(Юбилейный)</option> 
+			<option атрибуты>Саратов(Фрунзенский р-н)</option> 
+			<option атрибуты>Из области(Маркс)</option> 
+			<option атрибуты>Из области(Энгельс)</option>
+			<option атрибуты>Из области(Ершов)</option> 
+			<option атрибуты>Из области(Мокроус)</option>  
+		</select></p>
+
+		<label for="TownIndex"><a class="tochka">*</a> Индекс: </label> 
+		<input class="main" type="text" id="TownIndex" name="TownIndex" placeholder="Введите индекс" pattern="^[0-9]{6}$"  required><br><br> 
+
+		<label for="TownAdress"><a class="tochka">*</a> Адрес по прописке: </label>
+		<input class="main" type="text" id="TownAdress" name="TownAdress" placeholder="Введите адрес" required><br>
+
+		<p><a class="tochka">*</a> Дата регистрации:   
+   		<input class="main" type="date" name="calendar" value="2021-03-27"
+    max="2022-06-21" min="1920-01-01" required> </p>
+
+		<p><a class="tochka">*</a> Контактный телефон:
+	    <input class="main" type="tel" pattern="(8|\+7)[0-9]{7,10}" placeholder="Телефон" required></p> 
+
+	    <label for="email"> Эл.адрес: </label>
+	    <input class="main" type="email" id="email" name="email" placeholder="default@example.com" pattern="^[^.]((-?|_?\.?)[a-z0-9]+(_?-?\.?)[a-z0-9])+@(gmail|mail|ya|yandex|inbox|rambler|list|bk|yahoo)\.(ru|com)$">    
+
+	    <p><a class="tochka">*</a> Загрузите фото паспорта:
+	    <input class="main" type="file" name="f" multiple accept="image/*,image/jpeg" required></p>
+
+		<label for="атрибуты">Откуда узнали о магазине: </label>
+		<select атрибуты>
+		<option атрибуты>От друга</option>
+		<option атрибуты>Увидел(а) рекламу</option>
+		<option атрибуты>Из группы ВКонтакте</option>
+		<option атрибуты>Другое</option>
+	</select></p>
+
+	    
+
+	    <p><input id="bb" type="checkbox" name="Soglasie" required>
+	    <a class="tochka">*</a> <label for="bb"> Я ознакомлен с <a id="text"><a href="#spec1">порядком подачи заявления в электронном  виде</a></a></label> </p><br>
+
+
+	    <input class="buttons" type="submit">
+	    <input class="buttons" type="reset">
+
+	</form>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+body {
+	text-align: center;	
+	background: linear-gradient(45deg, #6495df, #C5DDE8);
+    background-attachment: fixed;
+ 	font-family: Calibri;
+}
+
+form {
+	margin: 0 auto;
+	padding: 0px;
+	display: inline-block;
+	width: auto;  
+	background: #FAFAFA;
+	border-radius: 10px;
+}
+
+
+.zaglavtext{
+	text-align: center;
+	width: 600px;
+	border: 2px solid #E5E5E5;
+}
+
+.tochka {
+	color: red;
+}
+
+#text {
+	color: red;
+}
+
+.main {
+	padding: 5px;
+	width: 45%;
+	line-height: 25px; 
+	border: 1px solid #E5E5E5;
+	font-family: Calibri;
+	font-size: 15px;
+	border-radius: 10px;
+
+	box-shadow: 0 0 8px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 0 8px rgba(0,0,0,.1);
+	box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+select{
+	color: #505050;
+	padding: 5px 40px 5px 5px; 
+	height:40px; 
+	font-family: Verdana, sans-serif;
+	font-size: 90%;	
+}
+
+textarea {
+	width: 520px;
+	max-width: 500px;
+	height: 140px;
+	resize: none; 
+	font-family: Verdana;
+}
+
+.buttons {
+	padding: 10px;
+	width: 40%;
+	line-height: 25px; 
+	border: 1px solid #E5E5E5;
+	font-family: Verdana;
+	font-size: 15px;
+	margin: 20px;
+	border-radius: 10px;
+
+	box-shadow: 0 0 8px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 0 8px rgba(0,0,0,.1);
+	box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+	
+
+
+}
+

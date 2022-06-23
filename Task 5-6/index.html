@@ -1,0 +1,123 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta id="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Task 5-6</title>
+</head>
+<body>
+    <div id="div1">
+
+    
+    <nav class = "menu">
+        <ul class="ulMenu">
+            <li><a href="#idInput">Hello</a></li>
+            <li><a href="#Triangle">TriangleSquare</a></li>
+            <li><a href="#CompareStrings">CompareStrings</a></li>
+            <li><a href="#MinMax">MinMax</a></li>
+            <li><a href="#Test">Test</a></li>
+            <li><a href="#backgroundbutton">BeautifulBack</a></li>
+        </ul>
+    </nav>
+    <h1>Сайт для новичков JavaScript</h1>
+    <h2>Общие сведения о языке</h2>
+    <p>
+        Мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили. Является реализацией спецификации ECMAScript 
+    </p>
+    <h2>Зачем нужен и где применяется</h2>
+    <p>
+        JavaScript обычно используется как встраиваемый язык для программного доступа к объектам приложений. Наиболее широкое применение находит в браузерах как язык сценариев для придания интерактивности веб-страницам
+    </p>
+    <h2>В каких случаях не пригодится</h2>
+    <p>
+        Для написание бэк-энд части. Для создания сложных десктопных или мобильных приложений, игр
+    </p>
+    <div class="Hello">
+        <h3>Hello</h3>
+        <p>Введите ваше имя
+            <input type="text" id="NameInput">
+        </p>
+        <input type="button" class="Greet" value="Do magic" onclick="Greet()">
+    </div>
+    <div class="Triangle">
+        <h3>TriangleSquare</h3>
+        <p>Введите высоту и основание треугольника
+            <input type="text" id="Height" class="Height" placeholder="Высота">
+            <input type="text" id="Base" class="Base" placeholder="Основание">
+        </p>
+        <input type="button" id="FindSquare" value="Вычислить площадь" onclick="FindSquare()">
+    </div>
+    <div class="Strings" id="CompareStrings">
+        <h3>CompareStrings</h3>
+        <p>Введите две строки
+            <input type="text" id="string1">
+            <input type="text" id="string2">
+        </p>
+        <input type="button" id="CompareStrings" value="Сравнить" onclick="CompareStrings()">
+    </div>
+    <div class="MinMax" id="MinMax">
+        <h3>MinMax</h3>
+        <p>Введите 5 целых чисел массива
+            <input type="text" id="array" class="array">
+
+        </p>
+        <input type="button" id="ProcessArray" value="Найти MinMax" onclick="MinMax()">
+    </div>
+    <div class="Test" id="Test">
+        <h3>Test</h3>
+        <p>Пройдите тест из 10 вопросов и узнайте, насколько хорошо вы знаете JavaScript
+
+        </p>
+        <p>Какой язык является лучшим на свете?
+            <input type="text" id="answer1">
+        </p>
+        <p>
+            Ключевое слово для создания переменной в JavaScript?
+            <input type="text" id="answer2">
+        </p>
+        <p>
+            Какой тип данных в JS отвечает за строки?
+            <input type="text" id="answer3">
+        </p>
+        <p>
+            Вы любите JavaScript?
+            <input type="text" id="answer4">
+        </p>
+        <p>
+            Где применяется язык? (фронт-энд или бэк-энд)
+            <input type="text" id="answer5">
+        </p>
+        <p>
+            Что нужно применить для проверки условия на истинность? (название оператора)
+            <input type="text" id="answer6">
+        </p>
+        <p>
+            Сколько букв в слове JavaScript?
+            <input type="text" id="answer7">
+        </p>
+        <p>
+            Является ли JavaScript статически-строготипизированным языком?
+            <input type="text" id="answer8">
+        </p>
+        <p>
+            Есть ли в JavaScript ООП?
+            <input type="text" id="answer9">
+        </p>
+        <p>
+            Какой язык вы бы использовали при разработке фронт-энд части сайта?
+            <input type="text" id="answer10">
+        </p>
+        <input type="button" value="Узнать результаты" onclick="GetTestResults()" id="getResults">
+    </div>
+    <div class="BeautifulBack">
+        <h3>BeautifulBack</h3>
+        <input type="button" class="ShowBackground" id="backgroundbutton" value="DoAnotherMagic" onclick="DoAnotherMagic()">
+    </div>
+</div>
+    <div id="div2">
+        
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

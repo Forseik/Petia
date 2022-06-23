@@ -1,0 +1,40 @@
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-style: oblique; 
+    
+}
+h1,h2,ul,b{
+    color: #21272b;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    margin-left: -5px;
+    
+}
+body{
+    background: linear-gradient(45deg, #6495df, #C5DDE8);
+    background-attachment: fixed;
+}
+div{
+    padding-left: 10px;
+}
+li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+ul{
+    list-style-type:disc;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 5px;
+}
+b{
+    font-weight:500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
